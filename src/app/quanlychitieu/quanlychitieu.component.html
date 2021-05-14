@@ -1,0 +1,28 @@
+<div [formGroup]="profileForm">
+  
+    <h3>Address</h3>
+  
+    <label>
+      ngay:
+      <input type="text" formControlName="ngay">
+    </label>
+  
+    <label>
+      sotien:
+      <input type="text" formControlName="sotien">
+    </label>
+    
+    <label>
+      loai:
+      <input type="text" formControlName="loai">
+    </label>
+  
+    <label>
+      note:
+      <input type="text" formControlName="note">
+    </label>
+  </div>
+
+<div>
+  <button (click)="add()"> thêm mới</button>
+</div>
